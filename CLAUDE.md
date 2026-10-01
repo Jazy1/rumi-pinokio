@@ -18,6 +18,7 @@ CLAUDE.md (this file)  →  <folder>/CLAUDE.md (router)  →  .claude/skills/<sk
 | Database schema, RLS, seed, one-command bootstrap | [infrastructure/CLAUDE.md](infrastructure/CLAUDE.md) |
 | Agent/skill config + what skills exist | [.claude/CLAUDE.md](.claude/CLAUDE.md) |
 | Set up a clone from scratch | [SETUP.md](SETUP.md) · `npm run doctor` (preflight) |
+| **Run or develop this fork in Pinokio** (the sidebar, the GUI setup wizard) | [PINOKIO.md](PINOKIO.md) · [.claude/skills/pinokio-launcher](.claude/skills/pinokio-launcher/SKILL.md) |
 | The operator web console (settings, health, pipeline, activity) | [bot/console/](bot/console/) · [docs/console.md](docs/console.md) |
 | Customize branding / swap a framework / add a feature | [docs/agent-customization.md](docs/agent-customization.md) |
 | Architecture, cost, monitoring | [docs/architecture.md](docs/architecture.md) · [docs/cost-guide.md](docs/cost-guide.md) · [docs/monitoring.md](docs/monitoring.md) |

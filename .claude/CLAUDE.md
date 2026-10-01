@@ -17,6 +17,7 @@ folder with a `SKILL.md` (+ optional reference files).
 | Skill | Use for |
 |-------|---------|
 | [setup](skills/setup/SKILL.md) | Guided clone setup — env, DB bootstrap, flow registration, preflight (`/setup`) |
+| [pinokio-launcher](skills/pinokio-launcher/SKILL.md) | This fork's Pinokio launcher — the sidebar, the GUI setup wizard, and the rules for editing either |
 | [customizing](skills/customizing/SKILL.md) | Re-shaping a feature — the seam map for swapping frameworks, report design, LP structure, reading rubric, branding |
 | [digital-coach](skills/digital-coach/SKILL.md) | **Start here** — architecture map of the whole bot; routes to everything else |
 | [coaching](skills/coaching/SKILL.md) | Classroom-observation coaching: frameworks, the queue worker, LP integration |

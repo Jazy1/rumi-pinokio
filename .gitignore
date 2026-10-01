@@ -102,3 +102,21 @@ dashboard/supabase/.temp/
 # Python bytecode (the brief/ and curriculum/ packages)
 __pycache__/
 *.pyc
+
+# Pinokio launcher state. Generated per-install, never committed:
+# ENVIRONMENT holds this machine's launcher settings, and logs/ and cache/ are
+# written by Pinokio while scripts run.
+ENVIRONMENT
+/logs/
+/cache/
+
+# Marker file: create it to stop start.js launching a local Redis, when you
+# would rather point REDIS_URL at a hosted one.
+.use-cloud-redis
+
+# The launcher's own source. Rumi's `credentials*` rule above exists to keep
+# credential FILES out of the repo; these two are code that happens to share the
+# prefix, and without these negations a fresh clone is missing the step that
+# collects your API keys.
+!onboarding/routes/credentials.js
+!onboarding/public/steps/credentials.js

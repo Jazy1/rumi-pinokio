@@ -19,6 +19,11 @@
   <a href="https://hellorumi.ai">Website</a>
 </p>
 
+> **This fork runs Rumi in [Pinokio](https://pinokio.co).** It adds a one-click launcher and a browser setup
+> wizard — credentials with live connection tests, the database schema, and the WhatsApp QR as an image
+> instead of terminal art. Install it in Pinokio from this repository's URL, or read
+> **[PINOKIO.md](PINOKIO.md)** first. Everything below is upstream Rumi and still applies.
+
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg" alt="License" /></a>
   <a href="https://github.com/Orenda-Project/rumi-platform/actions/workflows/ci.yml"><img src="https://github.com/Orenda-Project/rumi-platform/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
